@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Russell Osborne</title>
+    <link>http://example.org/post/index.xml</link>
+    <description>Recent content in Posts on Russell Osborne</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/rposborne&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
+    <lastBuildDate>Wed, 15 Mar 2017 08:56:29 -0400</lastBuildDate>
+    <atom:link href="http://example.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>It&#39;s About the Little Things</title>
+      <link>http://example.org/post/its-about-the-little-things/</link>
+      <pubDate>Wed, 15 Mar 2017 08:56:29 -0400</pubDate>
+      
+      <guid>http://example.org/post/its-about-the-little-things/</guid>
+      <description>&lt;p&gt;The wisdom of the ages shall not be lost.   Below are following tips, settings, and tools that help increase productivity as a developer.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;shortcuts&#34;&gt;ShortCuts&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;mac OS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Command - Tab (toggle between applications)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ATOM&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Ctrl - Shift - m  (toggle markdown preview)&lt;/p&gt;
+
+&lt;h3 id=&#34;cli-applications&#34;&gt;CLI + Applications&lt;/h3&gt;
+
+&lt;h4 id=&#34;hub-https-github-com-github-hub&#34;&gt;&lt;a href=&#34;https://github.com/github/hub&#34;&gt;Hub&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;A commandline interface for github.&lt;/p&gt;
+
+&lt;p&gt;Do things like.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;hub pull-request&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;hub create my-new-repo-and-also-setup-my-remotes&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Install with &lt;code&gt;brew install hub&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;alfred-3-https-www-alfredapp-com&#34;&gt;&lt;a href=&#34;https://www.alfredapp.com&#34;&gt;Alfred 3&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;An application launcher / productivity tool.&lt;/p&gt;
+
+&lt;h4 id=&#34;flycut-https-itunes-apple-com-us-app-flycut-clipboard-manager-id442160987-mt-12&#34;&gt;&lt;a href=&#34;https://itunes.apple.com/us/app/flycut-clipboard-manager/id442160987?mt=12&#34;&gt;FlyCut&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;A tool to have multiple clipboards.  Never loose something that you copied again.&lt;/p&gt;
+
+&lt;h3 id=&#34;bash-customizations&#34;&gt;Bash Customizations&lt;/h3&gt;
+
+&lt;p&gt;Add to your .bash_profile&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# Turn on colors for the Terminal
+export CLICOLOR=1
+export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+
+# Allow an infite amount of commands in your .bash_history file (storage is cheap)
+export HISTSIZE=&amp;quot;INFINITE&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Loads all tab completions for homebrew applications&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;if [ -d /usr/local/etc/bash_completion.d ]; then
+  for F in &amp;quot;/usr/local/etc/bash_completion.d/&amp;quot;*; do
+    if [ -f &amp;quot;${F}&amp;quot; ]; then
+      source &amp;quot;${F}&amp;quot;;
+    fi
+  done
+fi
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;guides&#34;&gt;Guides&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A community guide of other awesome apps
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/iCHAIT/awesome-macOS&#34;&gt;https://github.com/iCHAIT/awesome-macOS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;A community guide of things you can do to Mac OS X only through the CLI
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/herrbischoff/awesome-osx-command-line&#34;&gt;https://github.com/herrbischoff/awesome-osx-command-line&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
