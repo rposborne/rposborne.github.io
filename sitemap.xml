@@ -7,14 +7,47 @@
   </url>
   
   <url>
+    <loc>http://example.org/post/papertrail-versioned-data/</loc>
+    <lastmod>2016-11-12T09:52:03-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/code/</loc>
+    <lastmod>2016-11-12T09:52:03-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/paper_trail/</loc>
+    <lastmod>2016-11-12T09:52:03-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://example.org/post/</loc>
     <lastmod>2017-03-15T08:56:29-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>http://example.org/tags/ruby/</loc>
+    <lastmod>2016-11-12T09:52:03-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://example.org/</loc>
     <lastmod>2017-03-15T08:56:29-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
     <priority>0</priority>
   </url>
   

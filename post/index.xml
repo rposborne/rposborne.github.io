@@ -93,5 +93,21 @@ fi
 &lt;/ul&gt;</description>
     </item>
     
+    <item>
+      <title>Historical data from Papertrail logs</title>
+      <link>http://example.org/post/papertrail-versioned-data/</link>
+      <pubDate>Sat, 12 Nov 2016 09:52:03 -0400</pubDate>
+      
+      <guid>http://example.org/post/papertrail-versioned-data/</guid>
+      <description>&lt;p&gt;We use paper_trail quite often, it’s a wonderful gem and generally part of our standard suite for business apps, we primarily use it for audit logging, today we needed to get data out of this history.&lt;/p&gt;
+
+&lt;p&gt;There are quite a few ways to do this, from having daily server backups or parsing logs. They all have there quirks, so does this solution.  In this example we want to playback and take a snapshot of our orders table, let’s say value grouped by status.&lt;/p&gt;
+
+&lt;p&gt;__ DO NOT USE ON PRODUCTION__&lt;/p&gt;
+
+&lt;script src=&#34;//gist.github.com/rposborne/70cc6a7d02d28107fd9e.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
