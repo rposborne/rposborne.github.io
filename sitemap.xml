@@ -2,52 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.org/post/its-about-the-little-things/</loc>
+    <loc>https://rposborne.github.io/post/its-about-the-little-things/</loc>
     <lastmod>2017-03-15T08:56:29-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/post/papertrail-versioned-data/</loc>
+    <loc>https://rposborne.github.io/post/papertrail-versioned-data/</loc>
     <lastmod>2016-11-12T09:52:03-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://rposborne.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/categories/code/</loc>
-    <lastmod>2016-11-12T09:52:03-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.org/tags/paper_trail/</loc>
+    <loc>https://rposborne.github.io/categories/code/</loc>
     <lastmod>2016-11-12T09:52:03-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/post/</loc>
-    <lastmod>2017-03-15T08:56:29-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.org/tags/ruby/</loc>
+    <loc>https://rposborne.github.io/tags/paper_trail/</loc>
     <lastmod>2016-11-12T09:52:03-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://rposborne.github.io/post/</loc>
     <lastmod>2017-03-15T08:56:29-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://rposborne.github.io/tags/ruby/</loc>
+    <lastmod>2016-11-12T09:52:03-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rposborne.github.io/</loc>
+    <lastmod>2017-03-15T08:56:29-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rposborne.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   

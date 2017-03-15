@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Russell Osborne</title>
-    <link>http://example.org/index.xml</link>
+    <link>https://rposborne.github.io/index.xml</link>
     <description>Recent content on Russell Osborne</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/rposborne&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
     <lastBuildDate>Wed, 15 Mar 2017 08:56:29 -0400</lastBuildDate>
-    <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://rposborne.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>It&#39;s About the Little Things</title>
-      <link>http://example.org/post/its-about-the-little-things/</link>
+      <link>https://rposborne.github.io/post/its-about-the-little-things/</link>
       <pubDate>Wed, 15 Mar 2017 08:56:29 -0400</pubDate>
       
-      <guid>http://example.org/post/its-about-the-little-things/</guid>
+      <guid>https://rposborne.github.io/post/its-about-the-little-things/</guid>
       <description>&lt;p&gt;The wisdom of the ages shall not be lost.   Below are following tips, settings, and tools that help increase productivity as a developer.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -95,10 +95,10 @@ fi
     
     <item>
       <title>Historical data from Papertrail logs</title>
-      <link>http://example.org/post/papertrail-versioned-data/</link>
+      <link>https://rposborne.github.io/post/papertrail-versioned-data/</link>
       <pubDate>Sat, 12 Nov 2016 09:52:03 -0400</pubDate>
       
-      <guid>http://example.org/post/papertrail-versioned-data/</guid>
+      <guid>https://rposborne.github.io/post/papertrail-versioned-data/</guid>
       <description>&lt;p&gt;We use paper_trail quite often, it’s a wonderful gem and generally part of our standard suite for business apps, we primarily use it for audit logging, today we needed to get data out of this history.&lt;/p&gt;
 
 &lt;p&gt;There are quite a few ways to do this, from having daily server backups or parsing logs. They all have there quirks, so does this solution.  In this example we want to playback and take a snapshot of our orders table, let’s say value grouped by status.&lt;/p&gt;
