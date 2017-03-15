@@ -12,7 +12,7 @@
     <item>
       <title>Historical data from Papertrail logs</title>
       <link>https://rposborne.github.io/post/papertrail-versioned-data/</link>
-      <pubDate>Sat, 12 Nov 2016 09:52:03 -0400</pubDate>
+      <pubDate>Thu, 12 Nov 2015 09:52:03 -0400</pubDate>
       
       <guid>https://rposborne.github.io/post/papertrail-versioned-data/</guid>
       <description>&lt;p&gt;We use paper_trail quite often, it’s a wonderful gem and generally part of our standard suite for business apps, we primarily use it for audit logging, today we needed to get data out of this history.&lt;/p&gt;

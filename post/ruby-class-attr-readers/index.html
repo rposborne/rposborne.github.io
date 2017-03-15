@@ -1,14 +1,15 @@
+
 <!DOCTYPE html>
 <html lang="en-us">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta content="empathic, technical, leader" name="keywords">
 <meta content="Russell Osborne" name="author">
-<meta property="og:title" content="Paper_trail - Russell Osborne">
-<meta property="og:url" content="https://rposborne.github.io/tags/paper_trail/">
+<meta property="og:title" content="Ruby attr_* vs def methods - Russell Osborne">
+<meta property="og:url" content="https://rposborne.github.io/post/ruby-class-attr-readers/">
 <meta property="og:description" content="I help people tell computers to do things.">
 <meta property="og:type" content="website" />
-<title>Paper_trail | Russell Osborne</title>
+<title>Ruby attr_* vs def methods | Russell Osborne</title>
 <link rel="stylesheet" href="https://rposborne.github.io//css/style.css">
 <link rel="shortcut icon" href="https://rposborne.github.io//wave.ico">
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -57,66 +58,54 @@
 
 <section class="section">
   <div class="container">
+    <h1 class="title">Ruby attr_* vs def methods</h1>
+    <h2 class="subtitle is-5">June 29, 2016 by Russell Osborne</h2>
     
-    <article>
-      <h1 class="title"><a href="https://rposborne.github.io/post/papertrail-versioned-data/">Historical data from Papertrail logs</a></h1>
-      <h2 class="subtitle is-5">November 12, 2015</h2>
-      
-        <div class="tags">
+      <div class="tags">
     
         <a class="button is-link" href="/tags/ruby">ruby</a>
     
-        <a class="button is-link" href="/tags/paper_trail">paper_trail</a>
+        <a class="button is-link" href="/tags/classes">classes</a>
     
 </div>
 
-      
-      <div class="content">
-        We use paper_trail quite often, it’s a wonderful gem and generally part of our standard suite for business apps, we primarily use it for audit logging, today we needed to get data out of this history.
-There are quite a few ways to do this, from having daily server backups or parsing logs. They all have there quirks, so does this solution. In this example we want to playback and take a snapshot of our orders table, let’s say value grouped by status.
-        
-        ...<a class="button is-link" href="https://rposborne.github.io/post/papertrail-versioned-data/" style="height:28px">
-          Read more
-          <span class="icon is-small">
-            <i class="fa fa-angle-double-right"></i>
-          </span>
-        </a>
-        
-      </div>
-    </article>
+    
+    <div class="content">
+      <p>attr_* are class level methods that allow for easy exposition, of instance variables into methods. They can be represented with ruby method definitions as well, the following diagram shows the methods side by side too their attr_* counterparts.</p>
+
+<p><img src="/img/attr_reader.svg" alt="Diagram of ruby attr_reader, attr_writer, and attr_accessor showing the method implementation, vs the shorthand " /></p>
+
+<p>See other code diagrams at <a href="https://github.com/rposborne/code-diagrams">here</a></p>
+
+    </div>
+    
+        <div class="nav-left">
+    <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2frposborne.github.io%2fpost%2fruby-class-attr-readers%2f" title="Share on Facebook" target="_blank"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+    <a class="nav-item" href="https://plus.google.com/share?url=https%3a%2f%2frposborne.github.io%2fpost%2fruby-class-attr-readers%2f" title="Share on Google+" target="_blank"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+    <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2frposborne.github.io%2fpost%2fruby-class-attr-readers%2f" title="Share on LinkedIn" target="_blank"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+    <a class="nav-item" href="https://twitter.com/home?status=Ruby%20attr_%2a%20vs%20def%20methods - https%3a%2f%2frposborne.github.io%2fpost%2fruby-class-attr-readers%2f" title="Tweet this" target="_blank"><span class="fa fa-twitter fa-2x"></span></a>
+    <a class="nav-item" href="http://www.reddit.com/submit?url=https%3a%2f%2frposborne.github.io%2fpost%2fruby-class-attr-readers%2f&title=Ruby%20attr_%2a%20vs%20def%20methods" title="Share on Reddit" target="_blank"><span class="fa fa-reddit-alien fa-2x" aria-hidden="true"></span></a>
+    
+    </div>
     
   </div>
 </section>
+
 <section class="section">
   <div class="container">
-    <nav class="level is-mobile">
-      <div class="level-left">
-        <div class="level-item">
-          
-          <a class="button is-disabled">
-            <span class="icon is-small is-marginless">
-              <i class="fa fa-angle-left"></i>
-            </span>
-            Newer
-          </a>
-          
-        </div>
-      </div>
-      <div class="level-right is-marginless">
-        <div class="level-item">
-          
-          <a class="button is-disabled">
-            Older
-            <span class="icon is-small is-marginless">
-              <i class="fa fa-angle-right"></i>
-            </span>
-          </a>
-          
-        </div>
-      </div>
-    </nav>
+    <aside><div id="disqus_thread"></div></aside>
+    <script type="text/javascript">
+      var disqus_shortname = 'rposborne';
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
   </div>
 </section>
+
 
 <section class="section">
   <div class="container has-text-centered">

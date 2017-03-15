@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ruby on Russell Osborne</title>
-    <link>https://rposborne.github.io/tags/ruby/index.xml</link>
-    <description>Recent content in Ruby on Russell Osborne</description>
+    <title>Classes on Russell Osborne</title>
+    <link>https://rposborne.github.io/tags/classes/index.xml</link>
+    <description>Recent content in Classes on Russell Osborne</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/rposborne&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <atom:link href="https://rposborne.github.io/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://rposborne.github.io/tags/classes/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Ruby attr_* vs def methods</title>
@@ -20,22 +20,6 @@
 &lt;p&gt;&lt;img src=&#34;https://rposborne.github.io/img/attr_reader.svg&#34; alt=&#34;Diagram of ruby attr_reader, attr_writer, and attr_accessor showing the method implementation, vs the shorthand &#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;See other code diagrams at &lt;a href=&#34;https://github.com/rposborne/code-diagrams&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Historical data from Papertrail logs</title>
-      <link>https://rposborne.github.io/post/papertrail-versioned-data/</link>
-      <pubDate>Thu, 12 Nov 2015 09:52:03 -0400</pubDate>
-      
-      <guid>https://rposborne.github.io/post/papertrail-versioned-data/</guid>
-      <description>&lt;p&gt;We use paper_trail quite often, it’s a wonderful gem and generally part of our standard suite for business apps, we primarily use it for audit logging, today we needed to get data out of this history.&lt;/p&gt;
-
-&lt;p&gt;There are quite a few ways to do this, from having daily server backups or parsing logs. They all have there quirks, so does this solution.  In this example we want to playback and take a snapshot of our orders table, let’s say value grouped by status.&lt;/p&gt;
-
-&lt;p&gt;__ DO NOT USE ON PRODUCTION__&lt;/p&gt;
-
-&lt;script src=&#34;//gist.github.com/rposborne/70cc6a7d02d28107fd9e.js&#34;&gt;&lt;/script&gt;
 </description>
     </item>
     

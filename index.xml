@@ -94,9 +94,23 @@ fi
     </item>
     
     <item>
+      <title>Ruby attr_* vs def methods</title>
+      <link>https://rposborne.github.io/post/ruby-class-attr-readers/</link>
+      <pubDate>Wed, 29 Jun 2016 10:23:09 -0400</pubDate>
+      
+      <guid>https://rposborne.github.io/post/ruby-class-attr-readers/</guid>
+      <description>&lt;p&gt;attr_* are class level methods that allow for easy exposition, of instance variables into methods. They can be represented with ruby method definitions as well, the following diagram shows the methods side by side too their attr_* counterparts.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://rposborne.github.io/img/attr_reader.svg&#34; alt=&#34;Diagram of ruby attr_reader, attr_writer, and attr_accessor showing the method implementation, vs the shorthand &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;See other code diagrams at &lt;a href=&#34;https://github.com/rposborne/code-diagrams&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Historical data from Papertrail logs</title>
       <link>https://rposborne.github.io/post/papertrail-versioned-data/</link>
-      <pubDate>Sat, 12 Nov 2016 09:52:03 -0400</pubDate>
+      <pubDate>Thu, 12 Nov 2015 09:52:03 -0400</pubDate>
       
       <guid>https://rposborne.github.io/post/papertrail-versioned-data/</guid>
       <description>&lt;p&gt;We use paper_trail quite often, it’s a wonderful gem and generally part of our standard suite for business apps, we primarily use it for audit logging, today we needed to get data out of this history.&lt;/p&gt;
