@@ -10,6 +10,28 @@
     <atom:link href="https://rposborne.github.io/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Emacs per directory variables</title>
+      <link>https://rposborne.github.io/post/emacs-per-directory-settings/</link>
+      <pubDate>Sun, 19 Mar 2017 13:16:27 -0400</pubDate>
+      
+      <guid>https://rposborne.github.io/post/emacs-per-directory-settings/</guid>
+      <description>&lt;p&gt;When using keyboard only text editors like vim and emacs, discovering what they can do and how to do it is by far the hardest thing.&lt;/p&gt;
+
+&lt;p&gt;When I professionally develop I like to use Rspec, but some projects I work will use minitest. My editor &lt;a href=&#34;1&#34;&gt;SpaceMacs&lt;/a&gt; supports a major Ruby mode that allows easy running and toggling between files and their specs, but to turn it on means ALWAYS using rspec aka no go. On spacemacs docs there is a &amp;ldquo;TIP&amp;rdquo; leading to the existing of per-directory variables for emacs. This allows us to switch ruby-test-runners per project.&lt;/p&gt;
+
+&lt;p&gt;This file should be made at the root level of your project.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-emacs-lisp&#34;&gt;; .dir-locals.el
+
+((ruby-mode (ruby-test-runner . rspec)))
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;When entering this project emacs will set the variable &lt;code&gt;ruby-test-runner&lt;/code&gt; for the major mode &lt;a href=&#34;3&#34;&gt;&lt;code&gt;ruby-mode&lt;/code&gt;&lt;/a&gt;, and allow us to use &lt;a href=&#34;2&#34;&gt;&lt;code&gt;rspec-mode&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Ruby attr_* vs def methods</title>
       <link>https://rposborne.github.io/post/ruby-class-attr-readers/</link>
       <pubDate>Wed, 29 Jun 2016 10:23:09 -0400</pubDate>
