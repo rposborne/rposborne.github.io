@@ -7,8 +7,101 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/rposborne&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <lastBuildDate>Sun, 19 Mar 2017 13:16:27 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 31 Mar 2017 10:41:56 -0400</lastBuildDate>
     <atom:link href="https://rposborne.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>What happens after a code bootcamp</title>
+      <link>https://rposborne.github.io/post/so-you-took-a-leap/</link>
+      <pubDate>Fri, 31 Mar 2017 10:41:56 -0400</pubDate>
+      
+      <guid>https://rposborne.github.io/post/so-you-took-a-leap/</guid>
+      <description>
+
+&lt;p&gt;Choosing to take a boot camp was stressful, actually taking the class was stressful, and now it&amp;rsquo;s over, it&amp;rsquo;s time to take a deep breath and reinforce the knowledge that you gained.  When students graduate it can be very difficult to determine was is the next step, this is due to the direct mentorship and high intensity most boot camps have through there short classes and then&lt;/p&gt;
+
+&lt;h2 id=&#34;self-assesment&#34;&gt;Self Assesment&lt;/h2&gt;
+
+&lt;p&gt;After graduation and a short mental break it is time to reflect on where you are as a learner, this needs to be an honest assessment of your skills.&lt;/p&gt;
+
+&lt;h3 id=&#34;questions-to-ask-yourself&#34;&gt;Questions to ask yourself&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;What things do you feel like you understand and you don&amp;rsquo;t?&lt;/li&gt;
+&lt;li&gt;What have you learned that made you excited?&lt;/li&gt;
+&lt;li&gt;What have you learned that made you frustrated?&lt;/li&gt;
+&lt;li&gt;Did you enjoy the content covered in your course?&lt;/li&gt;
+&lt;li&gt;What do you want to do with your new found knowledge?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Once you have a rough idea of where you are, what you like and what you want to do it is time to build a &amp;ldquo;learning plan&amp;rdquo; to get yourself there.&lt;/p&gt;
+
+&lt;h2 id=&#34;refactor&#34;&gt;Refactor&lt;/h2&gt;
+
+&lt;p&gt;Your course most likely had ALOT of thought and effort put into and by those you can trust that had your best interest in mind, most likely this means they gave you homework and challenges that &amp;ldquo;made sense&amp;rdquo;.   Once we know where we are going we should look at these assignments as ways to help us get there.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;If your program had &amp;ldquo;prework&amp;rdquo;.  Do it again, and be careful to read the content thoroughly.&lt;/li&gt;
+&lt;li&gt;Restart assignments from scratch that fit your long term goals. (no peeking at your old solution)&lt;/li&gt;
+&lt;li&gt;Document assignments EXTENSIVELY.&lt;/li&gt;
+&lt;li&gt;Ask for a code review from a classmate.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;study&#34;&gt;Study&lt;/h2&gt;
+
+&lt;p&gt;Books, read them.&lt;/p&gt;
+
+&lt;p&gt;Don&amp;rsquo;t know what to read?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ruby
+
+&lt;ol&gt;
+&lt;li&gt;Sandi Metz&amp;rsquo; POODR&lt;/li&gt;
+&lt;li&gt;Clean Ruby&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;Javascript
+
+&lt;ol&gt;
+&lt;li&gt;Eloquent Javascript&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;.NET&lt;/li&gt;
+&lt;li&gt;Java&lt;/li&gt;
+&lt;li&gt;Swift/iOS&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here are some free ones.
+  &lt;a href=&#34;https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md&#34;&gt;Free Programming Books&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;challenge&#34;&gt;Challenge&lt;/h2&gt;
+
+&lt;p&gt;When we learn we first must remember, but we must challenge ourself to take it further by assessing our skills.   Thankfully there are many tools and people who are out there that look to challenge and push people.&lt;/p&gt;
+
+&lt;p&gt;Possible ways&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Free / Open source&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.exercism.io/&#34;&gt;http://www.exercism.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Build something you want!&lt;/li&gt;
+&lt;li&gt;Meetups&lt;/li&gt;
+&lt;li&gt;Study Groups&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Commerical&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.hackerrank.com/&#34;&gt;https://www.hackerrank.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://thoughtbot.com/upcase/join&#34;&gt;https://thoughtbot.com/upcase/join&lt;/a&gt;
+
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Remeber, you are the only person responsible for your learning journey, dedicate time, be patient with yourself, never be embarrassed and always ask for help if you need it.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Emacs per directory variables</title>
